@@ -1,16 +1,79 @@
-lesson3-nb
 <!DOCTYPE html>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Kavivanar|Open+Sans:400,700" rel="stylesheet">
 	<title>Nicole's Planets</title>
 	<style>
+	body {
+		font-family: 'Open Sans', sans-serif;
+		margin: 0;
+	}
+	header {
+		text-align: center;
+		background: #154c56;
+		padding: 40px;
+
+	}
+	h1 {
+		font-family: 'Kavivanar', sans-serif;
+		text-transform: uppercase;
+		font-size: 70px;
+		margin: 0;
+		line-height: 80px;
+		color: black;
+	}
+	h2 {
+		font-weight: 400;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	p {
+		font-size: 16px;
+	}
+		.price {
+		text-align: right;
+		font-size: 30px;
+	}
+	div {
+		text-align: left;
+		padding: 40px;
+		background-image: center;
+		background-size: cover;
+	}
+	.assortedsmall {
+		background-image: url("assets/a-5x7s.png");
+	}
+	.greenplanet {
+		background-image: url("assets/b-9x12.png");
+	}
+	.purplehaze {
+		background-image: url("assets/c-11x14.png");
+	}
+	.bigboy {
+		background-image: url("assets/d-18x24.png");
+	}
+
 	</style>
 </head>
 <body>
-	<h1>Nicole's Planets</h1>
-	<h2>They're out of this world</h2>
-	<p>Nicole's Choice (5x7)$30 <br />
-Let me choose one for you! Chosen at slightly-better-than-random is a Nicole's Choice of planet or moon for you. Each one is an original, made by shading layers of colored pencil on top of high squality acid free stonehenge paper. The overall dimensions are 5x7 and the circles have diameters ranging from 3/4 of an inch to 2 inches.</p>
-	<p>Green Planet (9x12)$50<br />
-Green Planet is layers and layers of colored pencil on high squality acid free stonehenge paper. The overall dimensions are 9x12 and the circle has a diameter of around 3 inches.</p>
+	<header>
+		<h1>Planetary</h1>
+		<h2>Circle, moon, porthole shaped art</h2>
+	</header>
+	<div class="assortedsmall">
+		<p>Nicole's Choice (5x7, assorted colors)$30 <br />
+		<small>Let me choose one for you! Chosen at slightly-better-than-random is a Nicole's Choice of planet or moon for you. Each one is an original, made by shading layers of colored pencil on top of high quality acid free stonehenge paper. The overall dimensions are 5x7 and the circles have diameters ranging from 3/4 of an inch to 2 inches.</small></p>
+	</div>
+	<div class="greenplanet">
+		<p>Green Planet (9x12, dark green)<span class="price">$50</span><br />
+		<small>Green Planet is layers and layers of colored pencil on high squality acid free stonehenge paper. The overall dimensions are 9x12 and the circle has a diameter of around 3 inches.</small></p>
+	</div>
+	<div class="purplehaze">
+		<p>Purple Haze (11x14, light purple)$80<br />
+		This one was lighthanded on the shading. It's and original colored pencil on acid free stonehenge paper. The circle is around 3.5" in diameter, light purple in color, and the artwork dimensions are 11x14.</p>
+	</div>
+	<div class="bigboy">
+		<p>Big Boy (18x24, custom colors)$180<br />
+		This is the largest size I make, 18x24. Customize your order! Request any color on thick white acid free stonehenge paper. Shading light or heavy? Large cirlce or small? Recommended diameters in the 6-10" range. You pick the color family, I pick the gradient.</p>
+	</div>
 </body>
